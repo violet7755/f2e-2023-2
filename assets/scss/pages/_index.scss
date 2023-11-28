@@ -1,0 +1,16 @@
+svg {
+  height: 100vh;
+}
+body {
+  background-color: rgb(83, 79, 152) !important;
+}
+path {
+  stroke: white;
+  fill: transparent;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover {
+    fill: rgb(130, 222, 238);
+    transform: translate(-5px,-5px);
+    }
+    }
